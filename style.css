@@ -1,0 +1,65 @@
+* {
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  margin: 0;
+  background: #121212;
+  color: white;
+}
+
+.app {
+  min-height: 100vh;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+h1 {
+  margin-bottom: 20px;
+}
+
+button {
+  width: 100%;
+  max-width: 300px;
+  padding: 15px;
+  margin: 8px 0;
+  font-size: 18px;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+}
+
+#playBtn {
+  background: #1db954;
+  color: black;
+  font-weight: bold;
+}
+
+.answers {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.answer {
+  background: #333;
+  color: white;
+}
+
+.answer.correct {
+  background: #1db954;
+}
+
+.answer.wrong {
+  background: #e53935;
+}
+
+#result {
+  margin-top: 15px;
+  font-size: 20px;
+}
