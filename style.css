@@ -63,3 +63,25 @@ button {
   margin-top: 15px;
   font-size: 20px;
 }
+
+.screen {
+  display: none;
+  min-height: 100vh;
+  padding: 20px;
+}
+
+.screen.active {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#rulesScreen ul {
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+.finish-text {
+  text-align: center;
+}
